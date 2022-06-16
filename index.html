@@ -1,14 +1,166 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>¿Soy un bootsrap?</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>¿Esto es un bootstrap?</h1>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>¿Soy un bootsrap?</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <nav style="padding-top: 0;" class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid" style="background-color: rgba(99, 99, 99, 0.562);">
+        <a class="navbar-brand" href="./index.html"> <u>Esto no es un bootstrap</u> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./nosoyunbootstrap.html"> <u>Aca hay un bootstrap</u> </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6">
+        <h1 class="bg-primary text-dark">Hola!, como andas?</h1>
+      </div>
+      <div class="col-6">
+        <h2 class="bg-warning">Hola, mal, estoy buscando un bootsrap pero no lo encuentro</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-6">
+      <h2 class="bg-primary text-dark">Te ayudo a buscar uno</h2>
+    </div>
+    <div class="col-6">
+      <h2 class="bg-warning"> Bueno dale, gracias!</h2>
+    </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6">
+          <h2 class="bg-primary text-dark">Mira!, aca hay un acordeón, fijate si hay algo</h2>
+        </div>
+        <div class="col-6">
+          <h2 class="bg-warning"> A ver que hay...</h2>
+        </div>
+    </div>
+    </div>
+  </div>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          Aca habra un bootsrap? #1
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Fo solo es un simple acordeon con un:</strong> Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Nemo, quidem molestiae ipsa consequatur sapiente architecto tempore quam laudantium. Suscipit in non
+          ullam unde animi doloribus adipisci, ad dolore? Saepe, voluptatum.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          Aca habra un bootsrap? #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Nada, vacio</strong>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Aca habra un bootsrap? #3
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Nada, aca solo hay una explicacion de que es flexbox</strong>. Flexbox es un módulo de diseño de CSS3
+          que se creó para mejorar la forma en la que se hace diseño responsive, evitando así el uso de float,
+          escribiendo menos código y facilitando el posicionamiento de elementos, incluso no teniendo noción del tamaño
+          de éstos. Básicamente la idea de Flexbox es poder alterar el ancho, alto y posicionamiento de elementos de la
+          mejor manera con el espacio del que disponemos.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row row-cols-2">
+      <div class="col"><h3 class="bg-primary text-dark">Mira es un formulario!</h3></div>
+      <div class="col"><h3 class="bg-warning">Capaz que si lo completamos lo vamos a encontrar.</h3></div>
+    </div>
+  </div>
+
+  <div class="container-xxl">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">Nunca vamos a compartir tu informacion con nadie.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Recordarme.</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Confirmar identidad</button>
+    </form>
+  </div>
+</main>
+  <footer>
+    <div class="container-fluid">
+      <div class="row justify-content-xxl-center">
+        <span class="border border-2 border-top border-success">
+        <div class="col">
+          Aca no hay ningun bootsrap.
+        </div>
+        <div class="col">
+          Pero mira aca hay un boton que dice "Aca si hay un bootsrap".
+        </div>
+        <div class="col">
+          Apretalo, no hay nada que perder.
+        </div>
+        <div class="col col-xxl-auto">
+          <a class="btn btn-danger" href="./nosoyunbootstrap.html" role="button">Aca si hay un bootsrap</a>
+        </div>
+      </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
